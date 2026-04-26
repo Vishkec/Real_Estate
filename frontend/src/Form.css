@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f5f7fa;
+  text-align: center;
+}
+
+/* PAGE WRAPPER */
+.page {
+  padding: 20px;
+}
+
+/* 🔥 BIG IMAGE */
+.top-image {
+  width: 90%;      /* wide */
+  max-width: 900px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+
+/* TITLE */
+h2 {
+  margin: 20px 0;
+}
+
+/* FORM */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* INPUTS */
+input {
+  width: 300px;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+input:focus {
+  border-color: #4a90e2;
+}
+
+/* BUTTON */
+button {
+  width: 300px;
+  padding: 12px;
+  margin-top: 10px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #357abd;
+}
